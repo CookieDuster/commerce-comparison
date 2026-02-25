@@ -1,0 +1,29 @@
+name: Manual Sync Google Sheet
+
+on:
+  workflow_dispatch: # This enables the "Run workflow" button in GitHub
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Download Google Sheet as CSV
+        run: |
+          mkdir -p data
+          # Replace the URL below with your "Publish to Web" CSV link
+          curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCCPce3ZYP9WOsuhflaOXvsK-PWlKDjxPT8QNkJZPgaUUJIkdjN4oJiKAhbUSp1jd7-JmRuE6du_vv/pub?output=csv" -o data/comparison.csv
+
+      - name: Commit and Push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/comparison.csv
+          if git diff --staged --quiet; then
+            echo "No changes detected in the sheet."
+          else
+            git commit -m "Manual sync: Update comparison data from Google Sheets"
+            git push
+          fi
