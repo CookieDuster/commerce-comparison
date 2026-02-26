@@ -1,61 +1,61 @@
-Technical Category,Shopify,Crystallize,Norce
-Architecture Type,Monolithic SaaS / Modular Headless,API-First / Headless / Composable,"Modular SaaS commerce platform (API-first, not fully headless-native origin)"
-Built with,Ruby on Rails / PHP,TypeScript / GraphQL,.NET / Microsoft ecosystem roots
-API Language,GraphQL & REST,GraphQL (Native),REST APIs
-Front-end Environment,Liquid (Native) / Remix / React,"Framework-agnostic (React, Vue, Next.js, etc.)","Frontend-agnostic, commonly React/Vue"
-Hosting & Infrastructure,Managed Shopify Cloud,Managed SaaS,Managed SaaS (Azure-based infrastructure)
-Security Standards,SSL / 2FA / PCI DSS Level 1,SSL / OAuth / JWT / PCI DSS Compliance,"Enterprise-grade, GDPR-compliant"
-Customization Depth,"Plugins, API & App-based extensions","Structural Backend Logic, Apps, Frontend agnostic","Configurable via APIs, extensions"
-Data Interaction,Traditional Request-Response,Event-driven / Webhook-powered,Structured commerce entities
-Scalability,YES,YES,Strong for mid-market & enterprise
-Multitenancy,YES,YES,Yes
-,,,
-Feature Category,,,
-Product Modeling,Standardized / Basic Attributes,Custom Shapes / Components / Grids,Structured product catalog
-Catalog scale,Up to 2048 variants per product,"Massive catalogs (50,000+ SKUs) supported ",Large catalogs supported
-CMS Capabilities,Basic Blog / Static Pages,Semantic CMS / Rich Storytelling / Topic Maps,Limited native CMS features
-Product Information Management (PIM),Via 3rd-party Apps,"Native, Built-in Headless PIM",Basic PIM functionality
-Subscription Engine,Via 3rd-party Apps (Recharge/Bold),"Native, Multi-tier / Metered Billing",Requires integrations/customization
-Checkout customization,Limited,Highly flexible,API-based customization
-Order Orchestration,Standardized Dashboard,Custom Fulfillment Pipelines / Webhooks,Commerce-focused OMS capabilities
-Multi-channel Support,Strong (Social/Marketplace integrations),Universal (Framework-agnostic API),Yes (Nordic retail focus)
-Digital Asset Management (DAM),Basic Image/Media hosting,Rich Media Mastery / Auto-transcoding CDN,Basic media handling
-CRM integration,Via API,YES,Via integrations
-Analytics and reporting,YES,YES,Standard commerce reporting
-Multichannel selling,YES,YES,Yes
-Multi-language,YES Up to 20 languages,YES,Yes
-Multi-currency,YES,YES,Yes
-Customization / Templating,YES,YES AI based,Frontend-driven
-SEO tools,Via 3rd-party Apps,YES Built in,Depends on frontend
-International SEO,Hreflang support via Apps/Themes ,Native/Developer-controlled ,Frontend-dependent
-App Ecosystem,"11,900+ Apps",Focused App Store / Custom Bridges,Integration-focused
-Ecosystem and integrations,Vast,Expanding,Nordic partner ecosystem
-Marketplace,YES,NO,No major public app marketplace
-,,,
-AI Category,,,
-AI commerce,YES via integrations,YES Built for AI,Not positioned as AI-native
-Content Generation,Built-in LLM text generation,Integration-ready (via specialized Apps),External tools
-Image Manipulation,Native BG removal and logo gen,Integration-ready (via specialized Apps),External tools
-Merchant Support,Sidekick (Conversational Assistant),Integration-ready (via specialized Apps),NO
-Customer Service,Shopify Inbox / Magic Replies,Integration-ready (via specialized Apps),NO
-Data Structure,Possible,YES with Flare AI,Structured commerce schema
-AI Templating,NO,YES with Flare AI,NO
-Translation,Manual / 3rd-party Apps,Automated Flow-based / Review Queues,Via integrations
-Operational AI,SimGym behavior simulation ,Integration-ready (via specialized Apps),Limited positioning
-Agentic commerce,YES,YES,NO
-,,,
-Pricing,,,
-Pricing Model,Subscription tiers / Additional fees for apps,Subscription + Metering,SaaS subscription
-Free tier availability,14-day free trial,YES Full features access,NO
-Entry level price,Starts at $28/month,Free + Metering,Custom / quote-based
-Transaction Fees,"$18,000 (0.15% for 3rd-party)",$0,NO
-App/PIM Costs,"$12,000 - $60,000 (Average Stack)",$0 (Native PIM/CMS),Included in platform
-Usage Fees,$0,Orders/API/BW,Contract-based
-,,,
-Support,,,
-Community Platform,Massive Forums / Slack Groups,Specialized Technical Slack,Limited public community
-Direct Support,24/7 Support / Community / Dedicated support (Plus and Advanced plans),Engineering-led Slack Support / Dedicated account manager (Enterprise),Enterprise support model
-Development Assets,Help Center / API Documentation / Proprietary SDKs / Guides,Livestream videos / API Reference / Developer guides,API docs & partner support
-Response Time SLA,Varied by Plan,1-4 Hours (Guaranteed for paid plans),Contract-based
-Profesional training,YES,YES,x Partner-driven
-Certification programs,YES,YES,x
+Technical Category,Shopify,Crystallize,Norce,BigCommerce
+Architecture Type,Monolithic SaaS / Modular Headless,API-First / Headless / Composable,"Modular SaaS commerce platform (API-first, not fully headless-native origin)","SaaS, API-enabled, traditional + headless capable"
+Built with,Ruby on Rails / PHP,TypeScript / GraphQL,.NET / Microsoft ecosystem roots,Proprietary SaaS platform (PHP backend)
+API Language,GraphQL & REST,GraphQL (Native),REST APIs,REST & GraphQL APIs
+Front-end Environment,Liquid (Native) / Remix / React,"Framework-agnostic (React, Vue, Next.js, etc.)","Frontend-agnostic, commonly React/Vue",Stencil (templating)
+Hosting & Infrastructure,Managed Shopify Cloud,Managed SaaS,Managed SaaS (Azure-based infrastructure),Fully hosted SaaS (BigCommerce cloud)
+Security Standards,SSL / 2FA / PCI DSS Level 1,SSL / OAuth / JWT / PCI DSS Compliance,"Enterprise-grade, GDPR-compliant",PCI DSS Level 1 compliant
+Customization Depth,"Plugins, API & App-based extensions","Structural Backend Logic, Apps, Frontend agnostic","Configurable via APIs, extensions","Moderate in SaaS mode, high in headless mode"
+Data Interaction,Traditional Request-Response,Event-driven / Webhook-powered,Structured commerce entities,API-based + admin UI
+Scalability,YES,YES,Strong for mid-market & enterprise,Enterprise-grade SaaS scaling
+Multitenancy,YES,YES,Yes,YES
+,,,,
+Feature Category,,,,
+Product Modeling,Standardized / Basic Attributes,Custom Shapes / Components / Grids,Structured product catalog,Standard attribute-based
+Catalog scale,Up to 2048 variants per product,"Massive catalogs (50,000+ SKUs) supported ",Large catalogs supported,Enterprise-ready
+CMS Capabilities,Basic Blog / Static Pages,Semantic CMS / Rich Storytelling / Topic Maps,Limited native CMS features,Basic CMS
+Product Information Management (PIM),Via 3rd-party Apps,"Native, Built-in Headless PIM",Basic PIM functionality,Basic PIM
+Subscription Engine,Via 3rd-party Apps (Recharge/Bold),"Native, Multi-tier / Metered Billing",Requires integrations/customization,Via apps/integrations
+Checkout customization,Limited,Highly flexible,API-based customization,Customizable (limited on SaaS)
+Order Orchestration,Standardized Dashboard,Custom Fulfillment Pipelines / Webhooks,Commerce-focused OMS capabilities,Built-in order management
+Multi-channel Support,Strong (Social/Marketplace integrations),Universal (Framework-agnostic API),Yes (Nordic retail focus),"Yes (social, marketplaces)"
+Digital Asset Management (DAM),Basic Image/Media hosting,Rich Media Mastery / Auto-transcoding CDN,Basic media handling,Basic media management
+CRM integration,Via API,YES,Via integrations,Via marketplace apps
+Analytics and reporting,YES,YES,Standard commerce reporting,Built-in analytics
+Multichannel selling,YES,YES,Yes,Yes
+Multi-language,YES Up to 20 languages,YES,Yes,Yes
+Multi-currency,YES,YES,Yes,Yes
+Customization / Templating,YES,YES AI based,Frontend-driven,Stencil themes
+SEO tools,Via 3rd-party Apps,YES Built in,Depends on frontend,Built-in SEO features
+International SEO,Hreflang support via Apps/Themes ,Native/Developer-controlled ,Frontend-dependent,yes
+App Ecosystem,"11,900+ Apps",Focused App Store / Custom Bridges,Integration-focused,Large marketplace
+Ecosystem and integrations,Vast,Expanding,Nordic partner ecosystem,Extensive app marketplace
+Marketplace,YES,NO,No major public app marketplace,Yes
+,,,,
+AI Category,,,,
+AI commerce,YES via integrations,YES Built for AI,Not positioned as AI-native,Emerging AI integrations
+AI Content Generation,Built-in LLM text generation,Integration-ready (via specialized Apps),External tools,Via third-party apps
+AI Image Manipulation,Native BG removal and logo gen,Integration-ready (via specialized Apps),External tools,Via apps
+Merchant Support with AI,Sidekick (Conversational Assistant),Integration-ready (via specialized Apps),NO,No
+Customer Service with AI,Shopify Inbox / Magic Replies,Integration-ready (via specialized Apps),NO,App-based integrations
+AI Data Structure,Possible,YES with Flare AI,Structured commerce schema,Traditional catalog model
+AI Templating,NO,YES with Flare AI,NO,No
+Translation with AI,Manual / 3rd-party Apps,Automated Flow-based / Review Queues,Via integrations,Via apps
+Operational AI,SimGym behavior simulation ,Integration-ready (via specialized Apps),Limited positioning,Limited native
+Agentic commerce,YES,YES,NO,Not core positioning
+,,,,
+Pricing,,,,
+Pricing Model,Subscription tiers / Additional fees for apps,Subscription + Metering,SaaS subscription,Tiered SaaS subscription
+Free tier availability,14-day free trial,YES Full features access,NO,No permanent free tier
+Entry level price,Starts at $28/month,Free + Metering,Custom / quote-based,~$39/month (Standard plan)
+Transaction Fees,"$18,000 (0.15% for 3rd-party)",$0,NO,No platform fee (payment provider fees apply)
+App/PIM Costs,"$12,000 - $60,000 (Average Stack)",$0 (Native PIM/CMS),Included in platform,Additional app costs
+Usage Fees,$0,Orders/API/BW,Contract-based,Revenue-based tier upgrades
+,,,,
+Support,,,,
+Community Platform,Massive Forums / Slack Groups,Specialized Technical Slack,Limited public community,Large community + forums
+Direct Support,24/7 Support / Community / Dedicated support (Plus and Advanced plans),Engineering-led Slack Support / Dedicated account manager (Enterprise),Enterprise support model,24/7 support (plan dependent)
+Development Assets,Help Center / API Documentation / Proprietary SDKs / Guides,Livestream videos / API Reference / Developer guides,API docs & partner support,"Docs, themes, APIs"
+Response Time SLA,Varied by Plan,1-4 Hours (Guaranteed for paid plans),Contract-based,Enterprise SLA available
+Profesional training,YES,YES,x Partner-driven,Partner network
+Certification programs,YES,YES,x,Yes
