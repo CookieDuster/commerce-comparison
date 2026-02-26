@@ -1,27 +1,42 @@
-# Commerce Platform Comparison (2026)
+# 🛒 Open Commerce Comparison (2026)
 
-A community-driven comparison of modern commerce platforms: **Shopify**, **Crystallize**, and **Norce**.
+### Why this exists
+Choosing a commerce engine is often a choice between "marketing fluff" and reality. I built this repo to move beyond sales decks and create a **community-validated, technical comparison** of modern platforms like Shopify, Crystallize, commercetools, BigCommerce, etc. 
 
-## 📊 Comparison Table
-| Category | Criteria | Shopify | Crystallize | Norce |
-| :--- | :--- | :--- | :--- | :--- |
-| **Technical** | Architecture Type | SaaS / Monolithic-core | Headless / GraphQL | Headless / API-first |
-| | API Language | GraphQL / REST | GraphQL | REST / GraphQL |
-| | Customization | High (Apps/Liquid) | Very High (API) | High (Composable) |
-| **AI** | Agentic Commerce | Shopify Magic | Semantic Search | Operational AI |
-| | Content Gen | Yes | Yes | Yes |
-| **Pricing** | Model | Subscription + % | Usage-based | SaaS Fee |
+By keeping this data open source, I hope to ensure the specs remain objective, up to date, and useful for architects and founders alike.
 
-> **Note:** For the full 45+ criteria breakdown, please see [data/comparison.csv](./data/comparison.csv).
+---
 
-## 🛠 Set Criteria
-All new platform suggestions must include data for:
-* **Technical:** Architecture, Built with, API, Hosting, Security, Scalability.
-* **Feature:** Product Modeling, PIM, Subscription, Checkout, Multi-channel.
-* **AI:** Content Gen, Image Manipulation, Agentic commerce, Operational AI.
-* **Pricing & Support:** Entry price, Fees, SLA, Training.
+## 📊 The Comparison Table
+> [!TIP]
+> **[Click here to view the full Comparison Data](./data/comparison.csv)** > GitHub renders our CSV into a searchable, filterable table automatically.
+> **[Click here to view the Comparison Data in Google Sheets ](https://docs.google.com/spreadsheets/d/1M2inFfiQWfKL2TwFARXrpSnClRLjb7pYuA-TWtxtpOU/edit?usp=sharing)** > Publich open file.
 
-## 🤝 How to Suggest Changes
-1. **Add a Platform:** Open an [Issue](https://github.com/YOUR_USERNAME/YOUR_REPO/issues) with the platform name and data.
-2. **Correct Data:** Submit a **Pull Request** editing the `data/comparison.csv` file.
-3. **Criteria:** Ensure all fields in the set criteria are filled to maintain consistency.
+---
+
+## 🛠 Contribution Guide
+
+I welcome updates to existing platforms or the addition of new ones. To maintain the integrity of the data, please follow these steps:
+
+### 1. Requesting a New Platform
+If you want a platform covered but don't have all the data:
+* Open a **New Issue**.
+* Use the title `[Request]: Platform Name`.
+* The community or maintainers will help research the criteria.
+
+### 2. Suggesting Changes (The Pull Request Process)
+If you have the data and want to update the table directly:
+1. **Fork** this repository.
+2. Edit the `data/comparison.csv` file.
+3. **Requirement:** If adding a new platform, you **must** provide values for all 45+ criteria across our 5 categories:
+   * **Technical** (Architecture, API, etc.)
+   * **Features** (PIM, CMS, etc.)
+   * **AI** (Agentic Commerce, GenAI, etc.)
+   * **Pricing** (Fees, Entry costs, etc.)
+   * **Support** (SLAs, Training, etc.)
+4. Submit a **Pull Request** with the heading `feat: add [Platform Name]` or `fix: update [Platform Name] specs`.
+
+---
+
+## 📜 License
+This project is licensed under the **Creative Commons Attribution 4.0 (CC BY 4.0)**. You are free to share and adapt this data as long as you provide attribution to this repository and the original page from which the project was made, https://crystallize.com/compare.
