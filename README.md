@@ -1,7 +1,7 @@
 # 🛒 Open Commerce Comparison (2026)
 
 ### Why this exists
-Choosing a commerce engine is often a choice between "marketing fluff" and reality. I built this repo to move beyond sales decks and create a **community-validated, technical comparison** of modern platforms like Shopify, Crystallize, commercetools, BigCommerce, etc. 
+Choosing a commerce engine is often a choice between "marketing fluff" and reality. I built this repo for [Platform Comparison tool](https://crystallize.com/compare) in [Crystallize](https://crystallize.com/compare) to move beyond sales decks and create a **community-validated, technical comparison** of modern platforms like Shopify, Crystallize, commercetools, BigCommerce, etc. 
 
 By keeping this data open source, I hope to ensure the specs remain objective, up to date, and useful for architects and founders alike.
 
@@ -10,7 +10,6 @@ By keeping this data open source, I hope to ensure the specs remain objective, u
 ## 📊 The Comparison Table
 > [!TIP]
 > **[Click here to view the full Comparison Data](./data/comparison.csv)** > GitHub renders our CSV into a searchable, filterable table automatically.
-> **[Click here to view the Comparison Data in Google Sheets ](https://docs.google.com/spreadsheets/d/1M2inFfiQWfKL2TwFARXrpSnClRLjb7pYuA-TWtxtpOU/edit?usp=sharing)** > Publich open file.
 
 ---
 
