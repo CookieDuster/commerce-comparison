@@ -1,4 +1,4 @@
-# 🛒 Open Commerce Comparison (2026)
+# 🛒 Open eCommerce Platforms Comparison (2026)
 
 ### Why this exists
 Choosing a commerce engine is often a choice between "marketing fluff" and reality. I built this repo for [eCommerce Platform Comparison tool](https://crystallize.com/compare) in [Crystallize](https://crystallize.com/compare) to move beyond sales decks and create a **community-validated, technical comparison** of modern platforms like Shopify, Crystallize, commercetools, BigCommerce, etc. 
