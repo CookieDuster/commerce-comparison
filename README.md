@@ -10,7 +10,9 @@ By keeping this data open source, I hope to ensure the specs remain objective, u
 ## 📊 The Comparison Table
 > [!TIP]
 > **[Click here to view the full Comparison Data](./data/comparison.csv)** > GitHub renders our CSV into a searchable, filterable table automatically.
+>
 > Release date: 02/03/2026
+>
 > Commerce Comparison v2.0: 04/14/2026
 
 ---
