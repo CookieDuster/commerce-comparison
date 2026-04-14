@@ -32,11 +32,15 @@ If you have the data and want to update the table directly:
 1. **Fork** this repository.
 2. Edit the `data/comparison.csv` file.
 3. **Requirement:** If adding a new platform, you **must** provide values for all 45+ criteria across our 5 categories:
-   * **Technical** (Architecture, API, etc.)
-   * **Features** (PIM, CMS, etc.)
-   * **AI** (Agentic Commerce, GenAI, etc.)
-   * **Pricing** (Fees, Entry costs, etc.)
-   * **Support** (SLAs, Training, etc.)
+   * **⚙️ Tech** (Architecture, API, etc.)
+   * **🧩 Feature** (PIM, CMS, etc.)
+   * **⚡ Reliability & Guarantees** (enterprise trust layer)
+   * **🤖 AI & Agentic Commerce** (Agentic Commerce, GenAI, etc.)
+   * **🆕 Agentic Layer** (Approval workflows for AI actions)
+   * **🛒 Commerce Reliability** (enterprise trust layer)
+   * **🧱 Platform Engineering Maturity Category** (Workflows, enviromets, etc.)
+   * **💰 Pricing** (Fees, Entry costs, etc.)
+   * **🧑‍💻 Support** (SLAs, Training, etc.)
 4. Submit a **Pull Request** with the heading `feat: add [Platform Name]` or `fix: update [Platform Name] specs`.
 
 ---
