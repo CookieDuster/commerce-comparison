@@ -1,87 +1,87 @@
-Parameter,Description (and options),Crystallize,BigCommerce,Magento (Adobe Commerce),Shopify,SAP Commerce Cloud (originally SAP Hybris),commercetools,Commerce Layer,Saleor,Norce,Centra,Litium
-⚙️ Tech,,,,,,,,,,,,
-Architecture Type,Monolith / Headless / Composable,Headless / Composable,SaaS (monolith + headless hybrid),Monolith (with headless/composable extensions),SaaS (monolithic core with headless APIs),Modular monolith (legacy) evolving to composable,Composable,Headless (API-first),Headless (Open-source),Composable / API-first (but opinionated backend),"Headless (API-first, commerce-focused)",Hybrid (Headless + traditional CMS roots)
-Built with,Core technologies,"Node.js, GraphQL-native","PHP backend, SaaS platform",PHP (Zend/Laminas),Ruby on Rails + React,"Java, Spring, SAP ecosystem","Java, microservices",Ruby / Go services,"Python (Django), GraphQL",.NET,PHP (Symfony-based core),.NET
-API Language,REST / GraphQL / Hybrid,GraphQL-first,REST + GraphQL (Storefront GraphQL),REST + GraphQL,REST + GraphQL,"REST (primary), limited OCC APIs",REST + GraphQL,REST + GraphQL,GraphQL-first,REST (GraphQL limited),REST (GraphQL limited),REST
-Front-end Environment,Supported frameworks,"Any (Next.js, React, Vue, etc.)","Stencil, Next.js, Gatsby, custom","Luma (legacy), PWA Studio, APIs","Liquid, Hydrogen (React), APIs","Spartacus (Angular), composable storefront","Any (SDKs, MACH ecosystem)",Any,Any (strong React ecosystem),Any (headless),Any (strong DTC focus),.NET + headless options
-Hosting and Infrastructure,Cloud / SaaS / self-hosted,Fully managed cloud SaaS,Fully managed SaaS,Self-hosted or Adobe Cloud,Fully managed SaaS,SAP-managed cloud (SaaS),SaaS (multi-region),SaaS,Self-hosted / Cloud (Saleor Cloud),Cloud (Azure),SaaS (managed),SaaS (Azure)
-Security Standards,Compliance + API protections,"Cloud-native security, API auth, role-based access","PCI DSS Level 1, ISO/enterprise-grade protections","PCI DSS (self-managed responsibility), Adobe security","PCI DSS Level 1, SOC 2","ISO 27001, SOC2, enterprise-grade IAM","ISO 27001, GDPR, OAuth2","GDPR, OAuth2",Depends on deployment,"Enterprise-grade (Azure security, OAuth)","SaaS-grade, PCI-ready",Enterprise .NET + Azure compliance
-Customization Depth,Extensibility of core models,"Very high (model-first, no schema limits)","Moderate (API + apps, some constraints)",Very high (full code control),Medium (app-based extensions),High but complex (Java extensions),"High (via APIs, extensions)",Medium–High (rules engine),Very high (full code control),High (backend extensibility),Medium (API-first but controlled),Medium (more structured ecosystem)
-Data Interaction,Query/mutation/data flow,Pure GraphQL (query + mutation symmetry),"API-driven, some legacy constraints",Database-driven + APIs,API-first (but constrained schema),"Service-layer driven, structured APIs",Event-driven + APIs,API orchestration,Direct GraphQL data access,Service-oriented APIs,Commerce-focused APIs,Structured CMS + commerce coupling
-Scalability,Horizontal / vertical scaling,"Horizontal, high-performance APIs",Horizontal SaaS scaling,Depends on infrastructure (can scale heavily),Horizontal (Shopify handles it),Horizontal but heavy infra footprint,Horizontal (enterprise-grade),Horizontal (cloud-native),Horizontal (infra-dependent),Strong (enterprise Nordic clients),Strong (fast DTC scaling),Strong but less battle-tested globally
-Multitenancy,Yes / No / Partial,Yes,Yes,No,Yes,Yes (enterprise SaaS model),Yes,Yes,Partial,Yes,Yes,Yes
-,,,,,,,,,,,,
-🧩 Feature,,,,,,,,,,,,
-Headless Commerce,Yes / No / Partial,Yes (native),Yes (hybrid origins),Partial (PWA Studio + APIs),Partial (Hydrogen + APIs),Partial (retro-fitted),Yes,Yes,Yes,Yes,Yes (core strength),Partial
-Product Modeling,Flexibility of product structures,Extremely flexible (Product Universe),Structured but rigid (variants/options),Very flexible,Limited (variants/options),Strong but rigid (type system),"Advanced (types, attributes)",Structured but simpler,Extremely flexible,Flexible (but dev-heavy),Structured (fashion-first bias),Structured
-Catalog Scale,Large catalog support,Strong (enterprise-grade),Strong (100k+ SKUs),Excellent (enterprise-grade),Good (with limits),Excellent (enterprise-grade),Enterprise (100k+ SKUs),Mid–large,Large (infra dependent),Large catalogs supported,Strong for SKU-heavy DTC,Good but not extreme scale
-Product Information Management (PIM),Built-in or external,"Advanced, native PIM",Basic built-in,Limited built-in / often external,No (apps required),Built-in (core strength),Limited (needs external),No (external),No (external),External or custom,Limited native PIM,Built-in PIM
-CMS Capabilities,Content features,Strong composable CMS,Limited (page builder),Moderate,Basic,Integrated but traditional,No,No,No,External (bring your own),Minimal,Strong (core strength)
-Subscription Engine,Native / via integration,Native support,Via apps,Extensions,Via apps,Via SAP modules / integrations,Via integration,Native support,Via plugins,Via integration,Limited,Via integration
-Checkout Customization,Native vs customizable,Fully customizable,Limited (platform-controlled checkout),Fully customizable,Limited (Shopify-controlled),Limited without heavy dev,High,High (API-driven),Very high,High (backend-driven),Strong (optimized flows),Medium
-Order Orchestration,Workflow handling,Flow-based orchestration (custom workflows),Standard flows,Advanced,Basic,Strong enterprise workflows,Strong,Strong (rules-based),Custom logic,Strong,Strong (DTC optimized),Medium
-Digital Asset Management (DAM),Asset handling,"Built-in, structured assets",Basic,Limited,No (basic media only),Integrated,No,No,No,External,Limited,Built-in
-CRM Integration,Integration options,API-first integrations,"Via apps (Salesforce, HubSpot, etc.)",Strong,Strong ecosystem,"Native SAP ecosystem (C4C, etc.)",Yes,Yes,Yes,Yes,Yes,Yes
-Analytics and Reporting,Built-in / external,External / composable,Built-in dashboards,Built-in + external,Built-in + apps,Built-in + SAP analytics,External,External,External,External,Built-in + external,Built-in
-Multichannel Selling,Channels supported,Yes (API-driven anywhere),"Yes (Amazon, eBay, social)",Strong,Strong,Strong,Yes,Yes,Yes,Yes,"Strong (DTC, wholesale)",Yes
-Multi-language,Localization,Yes (native modeling),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Multi-currency,Currency support,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Customization / Templating,Templates + flexibility,Fully custom frontends,Stencil + apps,Full control (PHP + frontend),Liquid + apps,Accelerator-based (rigid),API-first,API-first,Full frontend freedom,Fully custom frontends,Frontend freedom,More traditional templating
-SEO tools,Built-in / external,Depends on frontend,Built-in,Strong,Good,Basic,External,External,External,External,Decent built-in,Strong (CMS-driven)
-International SEO,Multi-region SEO,Fully flexible,Supported,Strong,Good,Supported,External,External,External,Yes,Yes,Yes
-App Ecosystem / Marketplace,Size and maturity,"Smaller, growing","Large, mature",Large but fragmented,Massive,Large SAP ecosystem,Large (MACH ecosystem),Growing,Smaller,Small,Growing,Moderate
-,,,,,,,,,,,,
-⚡ Reliability & Guarantees,,,,,,,,,,,,
-Deterministic Output Guarantees,"Can the system guarantee consistent outputs (pricing, checkout, workflows)",High (API-driven deterministic flows),Medium (depends on apps/extensions),Depends on implementation,Medium (black-box logic),Strong (enterprise-grade),Strong (enterprise-grade flows),Strong (API-driven consistency),Depends on implementation,Medium (depends on implementation),High (controlled flows),Medium
-Execution Observability,"Logs, traces, workflow visibility","Strong (flows, API logs, observability hooks)",Limited (logs via platform/apps),Requires tooling,Limited,"SAP tooling, logs","Good (logs, monitoring)",Moderate,Custom / self-built,Azure + custom logging,Good SaaS observability,Standard
-Failure Handling & Recovery,"Retries, rollbacks, fallback strategies",Custom workflows + retries (Flows),Platform-managed,Developer responsibility,Managed by Shopify,Mature enterprise patterns,"Retries, queues",Retry logic built-in,Custom,Custom implementation,Built-in flows,Moderate
-State Management Transparency,"Visibility/control over carts, orders, workflows",High (full control via APIs),Partial (cart/checkout abstracted),High,Low,Limited (opaque layers),Moderate,High (clean resource model),High (you control state),Medium,High (checkout/cart clarity),Medium
-Idempotency Support,"Safe retry of operations (orders, payments)",Strong (API-first design),Partial,Custom implementation,Partial,Supported but complex,Yes,Yes (strong),Partial,Supported,Supported,Limited clarity
-Consistency Model,Strong vs eventual consistency across systems,Strong consistency for core operations,Eventual consistency in some areas,Varies,Strong (centralized SaaS),Strong consistency,Eventual consistency,Stronger transactional consistency,Depends,Strong,Strong,Strong
-Latency Guarantees (P95/P99),"Performance consistency, not just averages",High-performance API focus,Not publicly strict,Depends on hosting,Strong (Shopify infra),Stable but heavier,Enterprise SLA-backed,Good,Infra-dependent,Good,Very strong (optimized DTC),Moderate
-Auditability,Trackability of actions and changes,Structured audit via flows + events,Basic logs,High,Moderate,Enterprise-grade,Strong,Strong,Custom,Yes,Yes,Yes
-,,,,,,,,,,,,
-🤖 AI & Agentic Commerce,,,,,,,,,,,,
-AI Commerce,Core AI capability (forced feature),Core direction (Flare AI vision),Emerging (partner-driven),Adobe Sensei (enterprise AI),Shopify Magic (basic AI),SAP Joule / AI integrations,Limited (partners),Limited,None native,No native layer,No native layer,No native layer
-AI Content Generation,Native / plugin / integration,Native + extensible,Via apps,Native (Sensei),Native (basic),Via SAP AI services,Integration,Integration,Integration,Integration,Integration,Integration
-AI Image Manipulation,Native / plugin / integration,Integration-ready,Via apps,Moderate,Limited,Via integrations,Integration,Integration,Integration,Integration,Integration,Integration
-AI Data Structure,AI-assisted modeling,Strong (model-driven + AI-assisted),Limited,No,No,Limited,No,No,No,No,No,No
-AI Templating,AI-generated templates,Emerging,No,Limited,Limited,Limited,No,No,No,No,No,No
-Translation with AI,Localization via AI,Native workflows,Via apps,Yes,Yes,Via SAP services,Integration,Integration,Integration,Integration,Integration,Integration
-Operational AI,Automation capabilities,Strong automation (Flows + AI),Limited,Medium,Low,SAP automation tools,Minimal,Minimal,None,No,No,No
-MCP Server,MCP available yes or no,Yes (Read-only),No,No,No,No,No,No,No,No,No,No
-,,,,,,,,,,,,
-🆕 Agentic Layer,,,,,,,,,,,,
-Agent Execution Boundaries,Sandbox vs unrestricted AI actions,Controlled via APIs/workflows,Not defined,Custom,Closed system,Controlled enterprise systems,External orchestration,External,External,N/A,N/A,N/A
-Human-in-the-Loop Controls,Approval workflows for AI actions,Workflow-based approvals possible,No native support,Possible,Limited,Yes (enterprise workflows),No native,No native,No native,N/A,N/A,N/A
-Action Traceability (AI Decisions),Visibility into why AI acted,High (flow traceability),Limited,Medium,Low,Strong,No,No,No,N/A,N/A,N/A
-Agent Retry / Backoff Strategy,AI failure handling logic,Workflow-controlled retries,Not exposed,Custom,No,Enterprise-grade,External,External,External,N/A,N/A,N/A
-Tooling / Function Calling Infrastructure,APIs usable by agents,"GraphQL-native, agent-friendly",API-based,Extensive APIs,Limited APIs,Limited,APIs usable,APIs usable,APIs usable,APIs usable,APIs usable,APIs usable
-,,,,,,,,,,,,
-🛒 Commerce Reliability,,,,,,,,,,,,
-Checkout Integrity Guarantees,"Safe checkout execution (no duplication, consistency)",High (custom logic + control),Strong (platform-controlled),Depends on implementation,Strong (platform controlled),Very strong,Strong,Strong,Depends,Strong,Very strong (core strength),Medium
-Promotion / Pricing Safety,Protection against pricing errors,Fully customizable logic,Platform rules,Risk if misconfigured,High (guardrails),Strong (rules engine),Strong,Strong (rules engine),Custom,Medium,Strong,Medium
-Catalog Consistency Across Channels,Data sync across touchpoints,Strong (single source of truth PIM),Good,Depends on setup,Strong,Strong,Strong,Strong,Depends,Good,Strong,Strong
-Bulk Operations Safety,Safe large-scale updates with rollback,Strong (mass operations + workflows),Limited,High (with tooling),Limited,Enterprise-grade,Managed,Managed,Custom,Custom,Moderate,Moderate
-,,,,,,,,,,,,
-🧱 Platform Engineering Maturity Category,,,,,,,,,,,,
-Workflow Orchestration Depth,Advanced automation capabilities,Advanced (Flows engine),Limited,Limited,Advanced,Very strong (process engine),"High (events, subscriptions)",Medium (rules-based),Custom,Strong (custom flows),Moderate,Moderate
-Environment Isolation,Dev / staging / prod separation,Yes,Yes,Yes,Yes,Yes (dev/stage/prod),Yes,Yes,Depends,Yes,Yes,Yes
-Extensibility Without Breaking Core,Safe customization model,High (composable architecture),Moderate,Moderate,Risky if unmanaged,Difficult (custom code risk),Yes,Yes,Risky (code-level changes),High (dev-driven),Medium,Medium
-,,,,,,,,,,,,
-💰 Pricing,,,,,,,,,,,,
-Pricing Model,SaaS / usage / license,SaaS (usage-based elements),SaaS tiered pricing,License + infra,SaaS subscription,Enterprise SaaS (contract-based),Enterprise SaaS,SaaS (usage-based),Open-source + SaaS,Enterprise SaaS,SaaS (GMV-based),SaaS
-Free Tier Availability,Yes / No,No,No,No,No,No,No,Yes (limited),Yes (self-hosted),No,No,No
-Entry Level Price,Lowest tier,Custom / project-based,~$39/month,$$$ (enterprise-level),~$39/month,High (6-figure typical),High (€€€),Mid (€€),Low–mid,High,Mid–high,Mid
-Transaction Fees,% per transaction,No platform transaction fees,0% (but payment provider fees apply),No platform fee,Yes (unless Shopify Payments),No (license-based),No,No,No,Sometimes,Yes (GMV-based),No
-App/PIM/CMS Costs,Additional costs,Included (PIM + CMS native),Additional via apps,"Hosting, dev, maintenance",Apps,Included but bundled,External,External,External,Dev-heavy,Apps + integrations,Licensing modules
-Usage Fees,API / bandwidth / etc.,API / usage-based scaling,Limited,Infra-dependent,Minimal,Infrastructure-based,Yes,Yes,Infra-dependent,Infra-based,Included,Included
-,,,,,,,,,,,,
-🧑‍💻 Support,,,,,,,,,,,,
-Direct Support,Channels available,Yes,Yes (24/7),Enterprise support,24/7,Enterprise support tiers,Enterprise SLA,Yes,Limited / paid,Yes,Yes,Yes
-Customer Service with AI,Chatbots / AI support,Emerging,Basic,Limited,Yes,SAP AI support tools,No,No,No,Limited,Limited,Limited
-Response Time SLA,Guaranteed response time,Yes,Yes (enterprise tiers),Yes (Adobe plans),Yes,Enterprise SLA,Yes,Yes,Limited,Enterprise,Enterprise,Enterprise
-Development Assets,"Docs, SDKs",Strong GraphQL docs + examples,Strong docs + SDKs,Excellent,Excellent,Extensive but complex,Excellent,Good,Strong OSS docs,Strong,Strong,Strong
-Professional Training,Courses / onboarding,Yes,Yes,Adobe training,Shopify Learn,SAP certifications,Yes,Limited,Limited,Yes,Yes,Yes
-Certification Programs,Yes / No,Limited,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Limited
-Community Platform,Forums / Slack / Discord,Smaller but focused,Large ecosystem,Large,Massive,Large SAP community,Moderate,Small,Strong OSS community,Small,Growing,Nordic-focused
+Parameter,Description (and options),Crystallize,BigCommerce,Magento (Adobe Commerce),Shopify,SAP Commerce Cloud (originally SAP Hybris),commercetools,Commerce Layer,Saleor,Norce,Centra,Litium,Optimizely
+⚙️ Tech,,,,,,,,,,,,,
+Architecture Type,Monolith / Headless / Composable,Headless / Composable,SaaS (monolith + headless hybrid),Monolith (with headless/composable extensions),SaaS (monolithic core with headless APIs),Modular monolith (legacy) evolving to composable,Composable,Headless (API-first),Headless (Open-source),Composable / API-first (but opinionated backend),"Headless (API-first, commerce-focused)",Hybrid (Headless + traditional CMS roots),Hybrid (DXP + composable + optional headless)
+Built with,Core technologies,"Node.js, GraphQL-native","PHP backend, SaaS platform",PHP (Zend/Laminas),Ruby on Rails + React,"Java, Spring, SAP ecosystem","Java, microservices",Ruby / Go services,"Python (Django), GraphQL",.NET,PHP (Symfony-based core),.NET,".NET (ASP.NET Core), Azure ecosystem"
+API Language,REST / GraphQL / Hybrid,GraphQL-first,REST + GraphQL (Storefront GraphQL),REST + GraphQL,REST + GraphQL,"REST (primary), limited OCC APIs",REST + GraphQL,REST + GraphQL,GraphQL-first,REST (GraphQL limited),REST (GraphQL limited),REST,REST + Graph (Optimizely Graph)
+Front-end Environment,Supported frameworks,"Any (Next.js, React, Vue, etc.)","Stencil, Next.js, Gatsby, custom","Luma (legacy), PWA Studio, APIs","Liquid, Hydrogen (React), APIs","Spartacus (Angular), composable storefront","Any (SDKs, MACH ecosystem)",Any,Any (strong React ecosystem),Any (headless),Any (strong DTC focus),.NET + headless options,"React (Spire), AngularJS (legacy), custom frontends"
+Hosting and Infrastructure,Cloud / SaaS / self-hosted,Fully managed cloud SaaS,Fully managed SaaS,Self-hosted or Adobe Cloud,Fully managed SaaS,SAP-managed cloud (SaaS),SaaS (multi-region),SaaS,Self-hosted / Cloud (Saleor Cloud),Cloud (Azure),SaaS (managed),SaaS (Azure),SaaS (cloud-native) + PaaS options
+Security Standards,Compliance + API protections,"Cloud-native security, API auth, role-based access","PCI DSS Level 1, ISO/enterprise-grade protections","PCI DSS (self-managed responsibility), Adobe security","PCI DSS Level 1, SOC 2","ISO 27001, SOC2, enterprise-grade IAM","ISO 27001, GDPR, OAuth2","GDPR, OAuth2",Depends on deployment,"Enterprise-grade (Azure security, OAuth)","SaaS-grade, PCI-ready",Enterprise .NET + Azure compliance,"OAuth2, OpenID Connect, Identity Server, PCI considerations"
+Customization Depth,Extensibility of core models,"Very high (model-first, no schema limits)","Moderate (API + apps, some constraints)",Very high (full code control),Medium (app-based extensions),High but complex (Java extensions),"High (via APIs, extensions)",Medium–High (rules engine),Very high (full code control),High (backend extensibility),Medium (API-first but controlled),Medium (more structured ecosystem),"High but framework-constrained (SDK, pipelines, .NET)"
+Data Interaction,Query/mutation/data flow,Pure GraphQL (query + mutation symmetry),"API-driven, some legacy constraints",Database-driven + APIs,API-first (but constrained schema),"Service-layer driven, structured APIs",Event-driven + APIs,API orchestration,Direct GraphQL data access,Service-oriented APIs,Commerce-focused APIs,Structured CMS + commerce coupling,REST pipelines + Graph API + CMS-driven data flows
+Scalability,Horizontal / vertical scaling,"Horizontal, high-performance APIs",Horizontal SaaS scaling,Depends on infrastructure (can scale heavily),Horizontal (Shopify handles it),Horizontal but heavy infra footprint,Horizontal (enterprise-grade),Horizontal (cloud-native),Horizontal (infra-dependent),Strong (enterprise Nordic clients),Strong (fast DTC scaling),Strong but less battle-tested globally,Cloud-native horizontal scaling
+Multitenancy,Yes / No / Partial,Yes,Yes,No,Yes,Yes (enterprise SaaS model),Yes,Yes,Partial,Yes,Yes,Yes,Yes (enterprise SaaS)
+,,,,,,,,,,,,,
+🧩 Feature,,,,,,,,,,,,,
+Headless Commerce,Yes / No / Partial,Yes (native),Yes (hybrid origins),Partial (PWA Studio + APIs),Partial (Hydrogen + APIs),Partial (retro-fitted),Yes,Yes,Yes,Yes,Yes (core strength),Partial,Partial (optional headless mode)
+Product Modeling,Flexibility of product structures,Extremely flexible (Product Universe),Structured but rigid (variants/options),Very flexible,Limited (variants/options),Strong but rigid (type system),"Advanced (types, attributes)",Structured but simpler,Extremely flexible,Flexible (but dev-heavy),Structured (fashion-first bias),Structured,Structured but CMS/PIM-dependent
+Catalog Scale,Large catalog support,Strong (enterprise-grade),Strong (100k+ SKUs),Excellent (enterprise-grade),Good (with limits),Excellent (enterprise-grade),Enterprise (100k+ SKUs),Mid–large,Large (infra dependent),Large catalogs supported,Strong for SKU-heavy DTC,Good but not extreme scale,Strong (enterprise B2B focus)
+Product Information Management (PIM),Built-in or external,"Advanced, native PIM",Basic built-in,Limited built-in / often external,No (apps required),Built-in (core strength),Limited (needs external),No (external),No (external),External or custom,Limited native PIM,Built-in PIM,External or integrated modules
+CMS Capabilities,Content features,Strong composable CMS,Limited (page builder),Moderate,Basic,Integrated but traditional,No,No,No,External (bring your own),Minimal,Strong (core strength),Best-in-class (DXP heritage)
+Subscription Engine,Native / via integration,Native support,Via apps,Extensions,Via apps,Via SAP modules / integrations,Via integration,Native support,Via plugins,Via integration,Limited,Via integration,Via integration
+Checkout Customization,Native vs customizable,Fully customizable,Limited (platform-controlled checkout),Fully customizable,Limited (Shopify-controlled),Limited without heavy dev,High,High (API-driven),Very high,High (backend-driven),Strong (optimized flows),Medium,Pipeline-based customization
+Order Orchestration,Workflow handling,Flow-based orchestration (custom workflows),Standard flows,Advanced,Basic,Strong enterprise workflows,Strong,Strong (rules-based),Custom logic,Strong,Strong (DTC optimized),Medium,Built-in pipelines
+Digital Asset Management (DAM),Asset handling,"Built-in, structured assets",Basic,Limited,No (basic media only),Integrated,No,No,No,External,Limited,Built-in,Built-in (DXP ecosystem)
+CRM Integration,Integration options,API-first integrations,"Via apps (Salesforce, HubSpot, etc.)",Strong,Strong ecosystem,"Native SAP ecosystem (C4C, etc.)",Yes,Yes,Yes,Yes,Yes,Yes,"Strong (ODP, external CRM)"
+Analytics and Reporting,Built-in / external,External / composable,Built-in dashboards,Built-in + external,Built-in + apps,Built-in + SAP analytics,External,External,External,External,Built-in + external,Built-in,Strong (experimentation + analytics)
+Multichannel Selling,Channels supported,Yes (API-driven anywhere),"Yes (Amazon, eBay, social)",Strong,Strong,Strong,Yes,Yes,Yes,Yes,"Strong (DTC, wholesale)",Yes,Yes (API-driven)
+Multi-language,Localization,Yes (native modeling),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Multi-currency,Currency support,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Customization / Templating,Templates + flexibility,Fully custom frontends,Stencil + apps,Full control (PHP + frontend),Liquid + apps,Accelerator-based (rigid),API-first,API-first,Full frontend freedom,Fully custom frontends,Frontend freedom,More traditional templating,"Themes, Razor, React (Spire)"
+SEO tools,Built-in / external,Depends on frontend,Built-in,Strong,Good,Basic,External,External,External,External,Decent built-in,Strong (CMS-driven),Strong (DXP suite)
+International SEO,Multi-region SEO,Fully flexible,Supported,Strong,Good,Supported,External,External,External,Yes,Yes,Yes,Yes
+App Ecosystem / Marketplace,Size and maturity,"Smaller, growing","Large, mature",Large but fragmented,Massive,Large SAP ecosystem,Large (MACH ecosystem),Growing,Smaller,Small,Growing,Moderate,Mature enterprise ecosystem
+,,,,,,,,,,,,,
+⚡ Reliability & Guarantees,,,,,,,,,,,,,
+Deterministic Output Guarantees,"Can the system guarantee consistent outputs (pricing, checkout, workflows)",High (API-driven deterministic flows),Medium (depends on apps/extensions),Depends on implementation,Medium (black-box logic),Strong (enterprise-grade),Strong (enterprise-grade flows),Strong (API-driven consistency),Depends on implementation,Medium (depends on implementation),High (controlled flows),Medium,Medium (pipeline complexity introduces variability)
+Execution Observability,"Logs, traces, workflow visibility","Strong (flows, API logs, observability hooks)",Limited (logs via platform/apps),Requires tooling,Limited,"SAP tooling, logs","Good (logs, monitoring)",Moderate,Custom / self-built,Azure + custom logging,Good SaaS observability,Standard,Good (enterprise tooling)
+Failure Handling & Recovery,"Retries, rollbacks, fallback strategies",Custom workflows + retries (Flows),Platform-managed,Developer responsibility,Managed by Shopify,Mature enterprise patterns,"Retries, queues",Retry logic built-in,Custom,Custom implementation,Built-in flows,Moderate,"Pipeline retries, middleware handling"
+State Management Transparency,"Visibility/control over carts, orders, workflows",High (full control via APIs),Partial (cart/checkout abstracted),High,Low,Limited (opaque layers),Moderate,High (clean resource model),High (you control state),Medium,High (checkout/cart clarity),Medium,Partial (abstracted pipelines)
+Idempotency Support,"Safe retry of operations (orders, payments)",Strong (API-first design),Partial,Custom implementation,Partial,Supported but complex,Yes,Yes (strong),Partial,Supported,Supported,Limited clarity,Supported but implementation-dependent
+Consistency Model,Strong vs eventual consistency across systems,Strong consistency for core operations,Eventual consistency in some areas,Varies,Strong (centralized SaaS),Strong consistency,Eventual consistency,Stronger transactional consistency,Depends,Strong,Strong,Strong,Mixed (depends on integrations)
+Latency Guarantees (P95/P99),"Performance consistency, not just averages",High-performance API focus,Not publicly strict,Depends on hosting,Strong (Shopify infra),Stable but heavier,Enterprise SLA-backed,Good,Infra-dependent,Good,Very strong (optimized DTC),Moderate,Enterprise-grade but variable
+Auditability,Trackability of actions and changes,Structured audit via flows + events,Basic logs,High,Moderate,Enterprise-grade,Strong,Strong,Custom,Yes,Yes,Yes,Strong (enterprise logging)
+,,,,,,,,,,,,,
+🤖 AI & Agentic Commerce,,,,,,,,,,,,,
+AI Commerce,Core AI capability (forced feature),Core direction (Flare AI vision),Emerging (partner-driven),Adobe Sensei (enterprise AI),Shopify Magic (basic AI),SAP Joule / AI integrations,Limited (partners),Limited,None native,No native layer,No native layer,No native layer,Strong (experimentation + personalization AI)
+AI Content Generation,Native / plugin / integration,Native + extensible,Via apps,Native (Sensei),Native (basic),Via SAP AI services,Integration,Integration,Integration,Integration,Integration,Integration,Native (DXP tools)
+AI Image Manipulation,Native / plugin / integration,Integration-ready,Via apps,Moderate,Limited,Via integrations,Integration,Integration,Integration,Integration,Integration,Integration,Limited / integrations
+AI Data Structure,AI-assisted modeling,Strong (model-driven + AI-assisted),Limited,No,No,Limited,No,No,No,No,No,No,Limited
+AI Templating,AI-generated templates,Emerging,No,Limited,Limited,Limited,No,No,No,No,No,No,Partial
+Translation with AI,Localization via AI,Native workflows,Via apps,Yes,Yes,Via SAP services,Integration,Integration,Integration,Integration,Integration,Integration,Available
+Operational AI,Automation capabilities,Strong automation (Flows + AI),Limited,Medium,Low,SAP automation tools,Minimal,Minimal,None,No,No,No,Experimentation + recommendations
+MCP Server,MCP available yes or no,Yes (Read-only),No,No,No,No,No,No,No,No,No,No,No
+,,,,,,,,,,,,,
+🆕 Agentic Layer,,,,,,,,,,,,,
+Agent Execution Boundaries,Sandbox vs unrestricted AI actions,Controlled via APIs/workflows,Not defined,Custom,Closed system,Controlled enterprise systems,External orchestration,External,External,N/A,N/A,N/A,Not clearly defined
+Human-in-the-Loop Controls,Approval workflows for AI actions,Workflow-based approvals possible,No native support,Possible,Limited,Yes (enterprise workflows),No native,No native,No native,N/A,N/A,N/A,Experiment approval workflows
+Action Traceability (AI Decisions),Visibility into why AI acted,High (flow traceability),Limited,Medium,Low,Strong,No,No,No,N/A,N/A,N/A,Moderate
+Agent Retry / Backoff Strategy,AI failure handling logic,Workflow-controlled retries,Not exposed,Custom,No,Enterprise-grade,External,External,External,N/A,N/A,N/A,Limited visibility
+Tooling / Function Calling Infrastructure,APIs usable by agents,"GraphQL-native, agent-friendly",API-based,Extensive APIs,Limited APIs,Limited,APIs usable,APIs usable,APIs usable,APIs usable,APIs usable,APIs usable,APIs available
+,,,,,,,,,,,,,
+🛒 Commerce Reliability,,,,,,,,,,,,,
+Checkout Integrity Guarantees,"Safe checkout execution (no duplication, consistency)",High (custom logic + control),Strong (platform-controlled),Depends on implementation,Strong (platform controlled),Very strong,Strong,Strong,Depends,Strong,Very strong (core strength),Medium,Strong (enterprise pipelines)
+Promotion / Pricing Safety,Protection against pricing errors,Fully customizable logic,Platform rules,Risk if misconfigured,High (guardrails),Strong (rules engine),Strong,Strong (rules engine),Custom,Medium,Strong,Medium,Strong but complex rules
+Catalog Consistency Across Channels,Data sync across touchpoints,Strong (single source of truth PIM),Good,Depends on setup,Strong,Strong,Strong,Strong,Depends,Good,Strong,Strong,Good (API-driven)
+Bulk Operations Safety,Safe large-scale updates with rollback,Strong (mass operations + workflows),Limited,High (with tooling),Limited,Enterprise-grade,Managed,Managed,Custom,Custom,Moderate,Moderate,Supported (enterprise tools)
+,,,,,,,,,,,,,
+🧱 Platform Engineering Maturity Category,,,,,,,,,,,,,
+Workflow Orchestration Depth,Advanced automation capabilities,Advanced (Flows engine),Limited,Limited,Advanced,Very strong (process engine),"High (events, subscriptions)",Medium (rules-based),Custom,Strong (custom flows),Moderate,Moderate,High (pipeline architecture)
+Environment Isolation,Dev / staging / prod separation,Yes,Yes,Yes,Yes,Yes (dev/stage/prod),Yes,Yes,Depends,Yes,Yes,Yes,Strong (enterprise environments)
+Extensibility Without Breaking Core,Safe customization model,High (composable architecture),Moderate,Moderate,Risky if unmanaged,Difficult (custom code risk),Yes,Yes,Risky (code-level changes),High (dev-driven),Medium,Medium,Medium (framework constraints)
+,,,,,,,,,,,,,
+💰 Pricing,,,,,,,,,,,,,
+Pricing Model,SaaS / usage / license,SaaS (usage-based elements),SaaS tiered pricing,License + infra,SaaS subscription,Enterprise SaaS (contract-based),Enterprise SaaS,SaaS (usage-based),Open-source + SaaS,Enterprise SaaS,SaaS (GMV-based),SaaS,"SaaS (enterprise, usage-based)"
+Free Tier Availability,Yes / No,No,No,No,No,No,No,Yes (limited),Yes (self-hosted),No,No,No,No
+Entry Level Price,Lowest tier,Custom / project-based,~$39/month,$$$ (enterprise-level),~$39/month,High (6-figure typical),High (€€€),Mid (€€),Low–mid,High,Mid–high,Mid,High (enterprise-focused)
+Transaction Fees,% per transaction,No platform transaction fees,0% (but payment provider fees apply),No platform fee,Yes (unless Shopify Payments),No (license-based),No,No,No,Sometimes,Yes (GMV-based),No,Included in contract
+App/PIM/CMS Costs,Additional costs,Included (PIM + CMS native),Additional via apps,"Hosting, dev, maintenance",Apps,Included but bundled,External,External,External,Dev-heavy,Apps + integrations,Licensing modules,Bundled DXP pricing
+Usage Fees,API / bandwidth / etc.,API / usage-based scaling,Limited,Infra-dependent,Minimal,Infrastructure-based,Yes,Yes,Infra-dependent,Infra-based,Included,Included,Based on orders/SKUs
+,,,,,,,,,,,,,
+🧑‍💻 Support,,,,,,,,,,,,,
+Direct Support,Channels available,Yes,Yes (24/7),Enterprise support,24/7,Enterprise support tiers,Enterprise SLA,Yes,Limited / paid,Yes,Yes,Yes,Enterprise SLAs
+Customer Service with AI,Chatbots / AI support,Emerging,Basic,Limited,Yes,SAP AI support tools,No,No,No,Limited,Limited,Limited,Yes (DXP tools)
+Response Time SLA,Guaranteed response time,Yes,Yes (enterprise tiers),Yes (Adobe plans),Yes,Enterprise SLA,Yes,Yes,Limited,Enterprise,Enterprise,Enterprise,Yes
+Development Assets,"Docs, SDKs",Strong GraphQL docs + examples,Strong docs + SDKs,Excellent,Excellent,Extensive but complex,Excellent,Good,Strong OSS docs,Strong,Strong,Strong,Extensive docs + SDKs
+Professional Training,Courses / onboarding,Yes,Yes,Adobe training,Shopify Learn,SAP certifications,Yes,Limited,Limited,Yes,Yes,Yes,Yes
+Certification Programs,Yes / No,Limited,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Limited,Yes
+Community Platform,Forums / Slack / Discord,Smaller but focused,Large ecosystem,Large,Massive,Large SAP community,Moderate,Small,Strong OSS community,Small,Growing,Nordic-focused,Large enterprise ecosystem
