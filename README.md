@@ -36,7 +36,6 @@ If you have the data and want to update the table directly:
    * **🧩 Feature** (PIM, CMS, etc.)
    * **⚡ Reliability & Guarantees** (enterprise trust layer)
    * **🤖 AI & Agentic Commerce** (Agentic Commerce, GenAI, etc.)
-   * **🆕 Agentic Layer** (Approval workflows for AI actions)
    * **🛒 Commerce Reliability** (enterprise trust layer)
    * **🧱 Platform Engineering Maturity Category** (Workflows, enviromets, etc.)
    * **💰 Pricing** (Fees, Entry costs, etc.)
