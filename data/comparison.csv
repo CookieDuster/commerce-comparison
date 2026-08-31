@@ -44,15 +44,17 @@ Auditability,Trackability of actions and changes,Structured audit via flows + ev
 ,,,,,,,,,,,,,
 🤖 AI & Agentic Commerce,,,,,,,,,,,,,
 AI Commerce,Core AI capability (forced feature),Yes (Flare AI),Partial,Partial (Adobe Sensei),Shopify Magic (basic AI),SAP Joule / AI integrations,Limited (partners),Limited,None native,No native layer,No native layer,No native layer,Strong (experimentation + personalization AI)
-AI Content Generation,Native / plugin / integration,Native,Via apps,Native,Native (basic),Via SAP AI services,Integration,Integration,Integration,Integration,Integration,Integration,Native (DXP tools)
+Tooling / Function Calling Infrastructure,Native / plugin / integration,Strong,Weak,Moderate,Limited APIs (superseded by MCP servers above — worth re-checking),Limited,APIs usable,APIs usable,APIs usable,APIs usable,APIs usable,APIs usable,APIs available
 Product Data Feed Enrichment,Does the platform use Generative AI to automatically fix missing SKU attributes or normalize data for search?,Yes,Limited,Yes,Partial,Yes,Partial,No,No,Partial,No,No,Partial
-AI Image Manipulation,Native / plugin / integration,Partial,Via apps,Yes,Limited,Via integrations,Integration,Integration,Integration,Integration,Integration,Integration,Limited / integrations
-AI Data Structure,AI-assisted modeling,Yes,No,Partial,No,Limited,No,No,No,No,No,No,Limited
-AI Templating,AI-generated templates,Yes,No,Partial,Limited,Limited,No,No,No,No,No,No,Partial
-Translation with AI,Localization via AI,Yes,Via apps,Yes,Yes,Via SAP services,Integration,Integration,Integration,Integration,Integration,Integration,Available
-Operational AI,Automation capabilities,Strong,Limited,Moderate,Low,SAP automation tools,Minimal,Minimal,None,No,No,No,Experimentation + recommendations
-MCP Server,MCP available yes or no,Yes,No,No,No,No,No,No,No,No,No,No,No
-Tooling / Function Calling Infrastructure,APIs usable by agents,Strong,Weak,Moderate,Limited APIs,Limited,APIs usable,APIs usable,APIs usable,APIs usable,APIs usable,APIs usable,APIs available
+AI Content Generation,Native / plugin / integration,Native,Via apps,Native,Native (basic),Via SAP AI services,Integration,Integration,Integration,Integration,Integration,Integration,Native (DXP tools)
+AI Image Manipulation,AI-assisted modeling,Partial,Via apps,Yes,Limited,Via integrations,Integration,Integration,Integration,Integration,Integration,Integration,Limited / integrations
+AI Data Structure,AI-generated templates,Yes,No,Partial,No,Limited,No,No,No,No,No,No,Limited
+AI Templating,Localization via AI,Yes,No,Partial,Limited,Limited,No,No,No,No,No,No,Partial
+Translation with AI,Automation capabilities,Yes,Via apps,Yes,Yes,Via SAP services,Integration,Integration,Integration,Integration,Integration,Integration,Available
+Operational AI,APIs usable by agents,Strong,Limited,Moderate,Low,SAP automation tools,Minimal,Minimal,None,No,No,No,Experimentation + recommendations
+"MCP Server (official, public)",,Yes,"Yes (Storefront MCP, GA)","Yes (Commerce MCP Server, announced Adobe Summit Apr 2026)",Yes (Storefront/Customer Account/Checkout/Dev MCP),Yes (storefront MCP server),"Yes (Managed MCP Servers, GA Jul 2026)",No (community-built only),Yes (official saleor-mcp),Yes (official Commerce MCP),"No (in progress, not yet shipped — 3rd-party built one to fill the gap)","Partial (MCP for docs/dev search only, not full commerce access)","Yes (official, 34-tool catalog)"
+MCP Scope,,"Read by default, mutations optional",Storefront-facing shopping flow,Developer/integration accelerator,Read + write across 4 servers,Storefront-facing,"Managed, read+write, permission-scoped",—,Not verified this pass,"Read+write, per-customer endpoint",—,"Read-only, docs only",Full B2B buyer journey incl. transactions
+Named agentic-commerce protocol support (ACP/UCP),,Not documented in current content,Not verified,Not confirmed as official Adobe claim,Yes — UCP (migrated endpoint to /api/ucp/mcp),"Yes — explicitly commits to MCP, ACP, UCP",Not verified,Not verified,Not verified,Yes — explicit UCP support,Not verified,Not verified,Not verified
 ,,,,,,,,,,,,,
 🛒 Commerce Reliability,,,,,,,,,,,,,
 Checkout Integrity Guarantees,"Safe checkout execution (no duplication, consistency)",High (custom logic + control),Strong (platform-controlled),Depends on implementation,Strong (platform controlled),Very strong,Strong,Strong,Depends,Strong,Very strong (core strength),Medium,Strong (enterprise pipelines)
