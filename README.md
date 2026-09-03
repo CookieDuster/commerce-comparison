@@ -57,9 +57,15 @@ If you have the data and want to update the table directly:
 
 ## Disclaimer
 
-**DISCLAIMER (Date: 09/01/2026):** The comparison data gathered here is compiled for informational purposes only, using publicly available information alongside artificial intelligence (AI) tools to assist in data gathering, analysis, and verification. While I strive to maintain accurate, high-quality, and up-to-date content, both automated systems and public sources can produce errors or omissions. I make no representations or warranties regarding the completeness, reliability, or accuracy of the information presented. Readers are strongly advised to consult the official websites of the respective platforms for the most current details, as features, pricing, and specifications are subject to change without notice.
+**DISCLAIMER (Date: 09/01/2026):** This project is maintained by an individual creator. The data across these projects is compiled for informational purposes only, using publicly available information (e.g., docs, reviews) and artificial intelligence (AI) tools to assist with data gathering, analysis, and verification. 
+
+I make no representations and expressly disclaim all warranties of any kind, whether express, statutory, or implied—including, without limitation, warranties of accuracy, completeness, merchantability, or fitness for a particular purpose. Platform specifications, features, and pricing are subject to change by the vendor without prior notice.
+
+In no event shall I be held liable for any direct, indirect, incidental, or consequential damages, or any business losses arising from the use of or reliance upon this data. You assume sole responsibility to independently verify all details directly with the respective providers before making technical or commercial decisions.
+
+Corrections, updates, and disputes are welcome and may be submitted at the relevant category repository. Claims will be verified before publishing.
 
 ---
 
 ## 📜 License
-This project is licensed under the **Creative Commons Attribution 4.0 (CC BY 4.0)**. You are free to share and adapt this data as long as you provide attribution to this repository and the original page from which the project was made, https://crystallize.com/compare.
+This project is licensed under the **Creative Commons Attribution 4.0 (CC BY 4.0)**. You are free to share this data as long as you provide attribution to this repository and the original page for  which the project was made, https://crystallize.com/compare.
