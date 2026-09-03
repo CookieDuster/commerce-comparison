@@ -1,4 +1,5 @@
 # 🛒 Open eCommerce Platforms Comparison (2026)
+> 🌐 **Part of the [Composable Stack Comparison Project](https://github.com/CookieDuster/comparison-project):** Explore our sibling matrices for **Commerce** • [PIM](https://github.com/CookieDuster/comparison-project#platforms-directory) • [CMS](https://github.com/CookieDuster/comparison-project#platforms-directory).
 
 ### Why this exists
 Choosing a commerce engine is often a choice between "marketing fluff" and reality. I built this repo for [eCommerce Platform Comparison tool](https://crystallize.com/compare) in [Crystallize](https://crystallize.com/compare) to move beyond sales decks and create a **community-validated, technical comparison** of modern platforms like Shopify, Crystallize, commercetools, BigCommerce, etc. 
@@ -14,6 +15,16 @@ By keeping this data open source, I hope to ensure the specs remain objective, u
 > Update date: 08/31/2026
 >
 > Commerce Comparison v2.0 (first release): 04/14/2026
+
+---
+
+## Methodology & Data Verification
+
+This matrix evaluates modern commerce platforms across API capabilities, catalog flexibility, checkout architecture, and developer experience.
+
+* **Data Sourcing:** Information is compiled from publicly accessible vendor documentation, API references, and product specifications.
+* **AI-Assisted Verification:** Automated tools and AI models assist in cross-checking vendor claims, normalizing criteria across different vendor vocabularies, and verifying feature availability.
+* **Corrections & Updates:** Platform features evolve rapidly. If any entry is incomplete or outdated, please open an Issue or submit a PR with links to the official documentation.
 
 ---
 
@@ -42,6 +53,11 @@ If you have the data and want to update the table directly:
    * **🧑‍💻 Support** (SLAs, Training, etc.)
 4. Submit a **Pull Request** with the heading `feat: add [Platform Name]` or `fix: update [Platform Name] specs`.
 
+---
+
+## Disclaimer
+
+**DISCLAIMER (Date: 09/01/2026):** The comparison pages on this website are compiled for informational purposes only, using publicly available information alongside artificial intelligence tools to assist in data gathering, analysis, and verification. While we strive to maintain accurate, high-quality, and up-to-date content, both automated systems and public sources can produce errors or omissions. We make no representations or warranties regarding the completeness, reliability, or accuracy of the information presented. Readers are strongly advised to consult the official websites of the respective platforms for the most current details, as features, pricing, and specifications are subject to change without notice.
 ---
 
 ## 📜 License
