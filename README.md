@@ -12,7 +12,7 @@ By keeping this data open source, I hope to ensure the specs remain objective, u
 > [!TIP]
 > **[Click here to view the full Comparison Data](./data/comparison.csv)** > GitHub renders our CSV into a searchable, filterable table automatically.
 >
-> Update date: 08/31/2026
+> Update date: 09/01/2026
 >
 > Commerce Comparison v2.0 (first release): 04/14/2026
 
@@ -57,7 +57,8 @@ If you have the data and want to update the table directly:
 
 ## Disclaimer
 
-**DISCLAIMER (Date: 09/01/2026):** The comparison pages on this website are compiled for informational purposes only, using publicly available information alongside artificial intelligence tools to assist in data gathering, analysis, and verification. While we strive to maintain accurate, high-quality, and up-to-date content, both automated systems and public sources can produce errors or omissions. We make no representations or warranties regarding the completeness, reliability, or accuracy of the information presented. Readers are strongly advised to consult the official websites of the respective platforms for the most current details, as features, pricing, and specifications are subject to change without notice.
+* DISCLAIMER (Date: 09/01/2026): * The comparison data gathered here is compiled for informational purposes only, using publicly available information alongside artificial intelligence (AI) tools to assist in data gathering, analysis, and verification. While I strive to maintain accurate, high-quality, and up-to-date content, both automated systems and public sources can produce errors or omissions. I make no representations or warranties regarding the completeness, reliability, or accuracy of the information presented. Readers are strongly advised to consult the official websites of the respective platforms for the most current details, as features, pricing, and specifications are subject to change without notice.
+
 ---
 
 ## 📜 License
