@@ -57,7 +57,7 @@ If you have the data and want to update the table directly:
 
 ## Disclaimer
 
-* DISCLAIMER (Date: 09/01/2026): * The comparison data gathered here is compiled for informational purposes only, using publicly available information alongside artificial intelligence (AI) tools to assist in data gathering, analysis, and verification. While I strive to maintain accurate, high-quality, and up-to-date content, both automated systems and public sources can produce errors or omissions. I make no representations or warranties regarding the completeness, reliability, or accuracy of the information presented. Readers are strongly advised to consult the official websites of the respective platforms for the most current details, as features, pricing, and specifications are subject to change without notice.
+**DISCLAIMER (Date: 09/01/2026):** The comparison data gathered here is compiled for informational purposes only, using publicly available information alongside artificial intelligence (AI) tools to assist in data gathering, analysis, and verification. While I strive to maintain accurate, high-quality, and up-to-date content, both automated systems and public sources can produce errors or omissions. I make no representations or warranties regarding the completeness, reliability, or accuracy of the information presented. Readers are strongly advised to consult the official websites of the respective platforms for the most current details, as features, pricing, and specifications are subject to change without notice.
 
 ---
 
