@@ -2,7 +2,7 @@
 > 🌐 **Part of the [Composable Stack Comparison Project](https://github.com/CookieDuster/comparison-project):** Explore our sibling matrices for **Commerce** • [PIM](https://github.com/CookieDuster/pim-comparison) • [CMS](https://github.com/CookieDuster/cms-comparison).
 
 ### Why this exists
-Choosing a commerce engine is often a choice between "marketing fluff" and reality. I built this repo for [eCommerce Platform Comparison tool](https://crystallize.com/compare) in [Crystallize](https://crystallize.com/compare) to move beyond sales decks and create a **community-validated, technical comparison** of modern platforms like Shopify, Crystallize, commercetools, BigCommerce, etc. 
+Choosing a commerce engine is often a choice between "marketing fluff" and reality. I built this repo for [eCommerce Platform Comparison tool](https://crystallize.com/compare) in [Crystallize](https://crystallize.com/compare) to move beyond sales decks. It is compiled from public vendor docs with AI-assisted research; every value is checked by the maintainer; open to correction by anyone. It covers modern platforms like Akeneo, Shopify, Crystallize, Pimcore, WordPress, commercetools, BigCommerce, etc. 
 
 By keeping this data open source, I hope to ensure the specs remain objective, up to date, and useful for architects and founders alike.
 
