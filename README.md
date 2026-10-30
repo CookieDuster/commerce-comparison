@@ -42,7 +42,7 @@ If you want a platform covered but don't have all the data:
 If you have the data and want to update the table directly:
 1. **Fork** this repository.
 2. Edit the `data/comparison.csv` file.
-3. **Requirement:** If adding a new platform, you **must** provide values for all 45+ criteria across our 5 categories:
+3. **Requirement:** If adding a new platform, you **must** provide values for all criteria across our categories:
    * **⚙️ Tech** (Architecture, API, etc.)
    * **🧩 Feature** (PIM, CMS, etc.)
    * **⚡ Reliability & Guarantees** (enterprise trust layer)
