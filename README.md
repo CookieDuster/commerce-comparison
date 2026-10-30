@@ -57,7 +57,7 @@ If you have the data and want to update the table directly:
 
 ## Disclaimer
 
-**DISCLAIMER (Date: 09/01/2026):** This project is maintained by an individual creator. The data across these projects is compiled for informational purposes only, using publicly available information (e.g., docs, reviews) and artificial intelligence (AI) tools to assist with data gathering, analysis, and verification. 
+**DISCLAIMER (Date: 10/30/2026):** This project is maintained by Nebojsa, who works at Crystallize, one of the platforms compared. Crystallize uses this data on its own comparison pages. The data across these projects is compiled for informational purposes only, using publicly available information (e.g., docs, reviews) and artificial intelligence (AI) tools to assist with data gathering, analysis, and verification. 
 
 I make no representations and expressly disclaim all warranties of any kind, whether express, statutory, or implied—including, without limitation, warranties of accuracy, completeness, merchantability, or fitness for a particular purpose. Platform specifications, features, and pricing are subject to change by the vendor without prior notice.
 
